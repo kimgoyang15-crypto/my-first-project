@@ -7,8 +7,8 @@ import pydeck as pdk
 
 st.set_page_config(page_title="Okcheon Housing Dashboard", layout="wide")
 
-plt.rc('font', family='Malgun Gothic')
-plt.rc('axes', unicode_minus=False)
+plt.rc("font", family="NanumGothic")
+plt.rc("axes", unicode_minus=False)
 
 @st.cache_data
 def load_data():
